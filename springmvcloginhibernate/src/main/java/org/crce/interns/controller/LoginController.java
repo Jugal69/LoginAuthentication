@@ -68,6 +68,11 @@ public class LoginController {
 			model.put("loginForm", loginForm);
 			return "TPO";
 		}
+		else if(role.equals("FacultyTPC"))
+		{
+			model.put("loginForm", loginForm);
+			return "FacultyTCP"
+		}
 		else{
 			result.rejectValue("userName","invaliduser");
 			return "loginform";
