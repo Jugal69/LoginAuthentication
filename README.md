@@ -1,1 +1,1 @@
-# LoginAuthentication for all the users.
+# LoginAuthentication for all the users of any role.
